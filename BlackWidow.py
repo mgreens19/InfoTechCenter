@@ -1,6 +1,3 @@
-# Programmer: Maddox Greenspoon
-# Branch: Welcome
-# Date:1.30.2025
-# Program: BlackWidow
+print("Welcome Branch - Developer: Maddox Greenspoon")
 
-print("Welcome to InfoTechCenter V1.0") 
+print("\n\tWelcome to InfoTechCenter V1.0")
