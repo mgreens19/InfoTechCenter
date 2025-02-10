@@ -1,6 +1,6 @@
 print("\n******************************************\n")
 
-print("Weather Branch - Developer: Mr. Lange\n")
+print("Weather Branch - Developer: Maddox Greenspoon\n")
 
 #Import Libraries HERE!
 import random
