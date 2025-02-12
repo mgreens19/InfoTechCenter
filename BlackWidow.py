@@ -1,6 +1,8 @@
 # Libraries for system and time manipulation
 import sys
 import time
+import random
+from time import sleep
 
 # ANSI escape sequences for text colors
 RESET = "\033[0m"  # Reset to default color
@@ -10,10 +12,10 @@ CYAN = "\033[36m"  # Cyan text
 YELLOW = "\033[33m" # Yellow text
 
 # Printing a welcome message in green
-print(f"{GREEN}Welcome Branch - Developer: Maddox Greenspoon{RESET}")
+print(f"{GREEN}Welcome Branch - Developer: Maddox Greenspoon{RESET}\n")
 
 # Displaying the name and version of the software system in cyan
-print(f"\n\t{CYAN}Welcome to InfoTechCenter V1.0{RESET}")
+print(f"{CYAN}Welcome to InfoTechCenter V1.0{RESET}\n")
 
 # Initialize counters for progress and ellipsis
 x = 0
@@ -44,8 +46,7 @@ while x != 20:
         print(f"\n\n{BOLD}{GREEN}Operating System Booted Up - Retina Scanned - Access Granted{RESET}\n")
 
 
-import random
-from time import sleep
+
 
 print("\n******************************************\n")
 print("Weather Branch - Developer: Maddox Greenspoon")
