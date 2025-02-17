@@ -17,11 +17,11 @@ def gasLevelAlert():
  milesToGasStationQuarterTank = round(random.uniform(25.1, 50),1)
  gasLevelIndicator = gasLevelGauge()
  if gasLevelIndicator == "Empty":
-    print("*****WARNING - YOU ARE OUT OF GAS*****\n")
+    print("*****WARNING - YOU ARE OUT OF GAS.*****\n")
     sleep(1)
     print("Calling AAA")
  elif gasLevelIndicator == "Low":
-   print("Your gas tank is extremely low, checking GPS for the closest gas station")
+   print("Your gas tank is extremely low, checking GPS for the closest gas station.")
    sleep(1)
    print("The closest gas station is", gasStations(), "which is", milesToGasStationLow, "miles away.")
  elif gasLevelIndicator == "Quarter Tank":
